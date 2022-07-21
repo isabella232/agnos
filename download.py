@@ -8,7 +8,7 @@ import requests
 import tempfile
 
 MASTER_MANIFEST = "https://raw.githubusercontent.com/commaai/openpilot/master/system/hardware/tici/agnos.json"
-RELEASE_MANIFEST = "https://raw.githubusercontent.com/commaai/openpilot/release3/selfdrive/hardware/tici/agnos.json"
+RELEASE_MANIFEST = "https://raw.githubusercontent.com/commaai/openpilot/release3/system/hardware/tici/agnos.json"
 
 def download_and_decompress(url, hash, filename):
 
